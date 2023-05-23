@@ -37,4 +37,4 @@ This creates or updates "branch_name" on cloud github
 Merge your branch with master: on git website, submit merge request for your branch 
 
 Update local master branch
-`git pull origin master --rebase`
+`git pull origin main --rebase`
