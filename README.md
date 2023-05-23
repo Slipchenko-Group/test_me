@@ -8,10 +8,13 @@ Clone repository to a local machine
 Create your own branch
 `git checkout -b new_branch`
 
+Check all branches
+`git branch`
+
 Add your changes to local repository
 `git add *`
 
 
-'git commit -m "description of my changes"'
+`git commit -m "description of my changes"`
 
-'git push origin master'
+`git push origin master`
