@@ -1,10 +1,13 @@
 ## repository to practice git tools
 
-To start with git
+### To start with git
 
-``
+- on windows, install git 
+- add ssh keys to your machine via `ssh-keygen` command
+- add public ssh keys to git web (in settings, add new ssh keys)
+- do `git config`
 
-Basic git commands 
+### Basic git commands 
 
 Clone repository to a local machine
 `git clone ...`
@@ -30,6 +33,8 @@ Commit changes to a branch on a local machine
 Push your changes in branch "branch_name" to the remote (cloud)
 `git push origin branch_name`
 This creates or updates "branch_name" on cloud github
+
+Merge your branch with master: on git website, submit merge request for your branch 
 
 Update local master branch
 `git pull origin master --rebase`
