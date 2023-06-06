@@ -3,6 +3,7 @@
 ### To start with git
 
 - if you do not have WSL installed on Wondows, install git. Otherwise, WSL already has git installed. Just work from the WSL terminal
+- on windows, install git 
 - add ssh keys to your machine via `ssh-keygen` command
 - add public ssh keys to git web (in settings, add new ssh keys)
 - do `git config`
@@ -31,6 +32,7 @@ Add your ids
 `git config --global user.email "your email"`
 `git config --global user.name "your username"`
 
+
 Commit changes to a branch on a local machine
 `git commit -m "description of my changes"`
 
@@ -52,3 +54,4 @@ Git pull merge is the default method for combining changes in Git, and will merg
 With Git pull rebase, on the other hand, the unpublished changes will be reapplied on top of the published changes and no new commit will be added to your history.
 
 With this in mind, you can see that Git pull rebase will result in a linear and cleaner project history by removing the unneeded merge commit.
+
