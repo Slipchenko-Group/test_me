@@ -1,2 +1,2 @@
 Sample text added to the new file to merge into Github.
-Isaac made this change to Jack's file
+Isaac made this change to Jack's file again
