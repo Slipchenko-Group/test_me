@@ -52,3 +52,13 @@ Git pull merge is the default method for combining changes in Git, and will merg
 With Git pull rebase, on the other hand, the unpublished changes will be reapplied on top of the published changes and no new commit will be added to your history.
 
 With this in mind, you can see that Git pull rebase will result in a linear and cleaner project history by removing the unneeded merge commit.
+
+**Problem with `no branch, rebasing <branch>`** in the git commit message 
+
+Solution:
+
+`git add <resolved_file>`
+
+`git commit`  # <----- this right here is what is causing it
+
+`git rebase --continue`
