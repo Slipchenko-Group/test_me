@@ -27,7 +27,7 @@ Add all your changes to local repository
 Add specific file to local repository
 `git add file_name`
 
-Add yout ids
+Add your ids
 `git config --global user.email "your email"`
 `git config --global user.name "your username"`
 
