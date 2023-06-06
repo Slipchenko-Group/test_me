@@ -2,7 +2,7 @@
 
 ### To start with git
 
-- on windows, install git 
+- if you do not have WSL installed on Wondows, install git. Otherwise, WSL already has git installed. Just work from the WSL terminal
 - add ssh keys to your machine via `ssh-keygen` command
 - add public ssh keys to git web (in settings, add new ssh keys)
 - do `git config`
