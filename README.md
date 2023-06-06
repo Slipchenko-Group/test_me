@@ -27,6 +27,10 @@ Add all your changes to local repository
 Add specific file to local repository
 `git add file_name`
 
+Add your ids
+`git config --global user.email "your email"`
+`git config --global user.name "your username"`
+
 Commit changes to a branch on a local machine
 `git commit -m "description of my changes"`
 
