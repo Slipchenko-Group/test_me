@@ -39,7 +39,7 @@ Merge your branch with master: on git website, submit merge request for your bra
 Update local master branch
 `git pull origin main --rebase`
 
-Explanation of the `-- rebase` option from [https://www.gitkraken.com/](https://www.gitkraken.com/learn/git/git-rebase#:~:text=Git%20pull%20rebase%20is%20a,behind%20the%20origin%2Fmain%20branch.):
+**Explanation of the `-- rebase` option from [https://www.gitkraken.com](https://www.gitkraken.com/learn/git/git-rebase#:~:text=Git%20pull%20rebase%20is%20a,behind%20the%20origin%2Fmain%20branch.)**
 
 So, what’s the difference between Git pull rebase and Git pull merge? While both of these options will combine the changes fetched from your remote, the outcome will look very different in your Git history.
 
