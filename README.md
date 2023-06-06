@@ -2,7 +2,7 @@
 
 ### To start with git
 
-- on windows, install git 
+- if you do not have WSL installed on Wondows, install git. Otherwise, WSL already has git installed. Just work from the WSL terminal
 - add ssh keys to your machine via `ssh-keygen` command
 - add public ssh keys to git web (in settings, add new ssh keys)
 - do `git config`
@@ -42,3 +42,13 @@ Merge your branch with master: on git website, submit merge request for your bra
 
 Update local master branch
 `git pull origin main --rebase`
+
+**Explanation of the `-- rebase` option from [https://www.gitkraken.com](https://www.gitkraken.com/learn/git/git-rebase#:~:text=Git%20pull%20rebase%20is%20a,behind%20the%20origin%2Fmain%20branch.)**
+
+So, what’s the difference between Git pull rebase and Git pull merge? While both of these options will combine the changes fetched from your remote, the outcome will look very different in your Git history.
+
+Git pull merge is the default method for combining changes in Git, and will merge the unpublished changes with the published changes, resulting in a merge commit.
+
+With Git pull rebase, on the other hand, the unpublished changes will be reapplied on top of the published changes and no new commit will be added to your history.
+
+With this in mind, you can see that Git pull rebase will result in a linear and cleaner project history by removing the unneeded merge commit.
