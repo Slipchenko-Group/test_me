@@ -1,1 +1,3 @@
 Sample text added to the new file to merge into Github.
+
+***An edit from Bell to see if I can merge to Git***
